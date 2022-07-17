@@ -1,0 +1,5 @@
+.DS_Store
+.git
+.streamlit
+__pycache__
+.vcf
