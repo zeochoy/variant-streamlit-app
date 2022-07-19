@@ -41,5 +41,6 @@ if len(selected_rows) != 0:
     show_selected_row_details(pd.Series(selected_rows[0]), DETAIL_COLS)
 
 ### test
+st.write("---")
 acmg_details = read_evidence_details(ACMG_DETAILS_PATH)
 generate_acmg_evidence_table(ACMG_TABLE_PATH, acmg_details)
